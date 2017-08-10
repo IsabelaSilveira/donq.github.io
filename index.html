@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DonQ</title>
+    <link rel="icon" href="img/icons/favicon.png" />
+  	<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png" />
+  	<link rel="apple-touch-icon" sizes="57x57"   href="img/icons/apple-touch-icon-57x57.png" />
+  	<link rel="apple-touch-icon" sizes="72x72"   href="img/icons/apple-touch-icon-72x72.png" />
+  	<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png" />
+  	<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-touch-icon-144x144.png" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+  	<script src="js/formzin-1.0.4.min.js" type="text/javascript"></script>
+  	<script src="js/theme.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <h1 class="col-sm-4 col-md-2 logo"><img src="img/logo.png" alt="Logo DonQ" class="img-fluid"></h1>
+          <nav class="navegacao d-flex offset-md-1">
+            <ul class="menu">
+              <li class="menu_item"><a href="javascript:void(0)" onclick="goToByScroll('home')" class="menu_link" title="Home">Home</a></li>
+              <li class="menu_item"><a href="javascript:void(0)" onclick="goToByScroll('servicos')" class="menu_link" title="Serviços">Serviços</a></li>
+              <li class="menu_item"><a href="javascript:void(0)" onclick="goToByScroll('fotos')" class="menu_link" title="Fotos">Fotos</a></li>
+              <li class="menu_item"><a href="javascript:void(0)" onclick="goToByScroll('contato')" class="menu_link" title="Contato">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+        <div id="banner_txt" class="col flex-first"><img src="img/txt_banner.png" alt="Buffet e Catering" class="img-fluid"></div>
+        <div id="form_col" class="col col-sm-4 flex-last">
+          <div class="d-flex">
+            <div class="v_align">
+              <h2 class="form_tit">Solicite um orçamento</h2>
+
+              <form id="contato" class="form_contact" method="post" action="email/mail.php">
+        					<input type="text" name="nome" placeholder="Nome" id="nome" class=" form_inpt"required="required" >
+        					<input type="email" name="email" placeholder="E-mail" id="email" class="email form_inpt" required="required">
+        					<input type="text" name="data" placeholder="Data do evento" id="data" class="data form_inpt" required="required">
+        					<input type="text" name="telefone" placeholder="Telefone" id="telefone"  class="telefone form_inpt" required="required">
+        				  <input type="submit" class="btn_form" value="Enviar">
+        			</form>
+            </div>
+          </div>
+
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="servs">
+      <article class="container">
+        <div class="row">
+          <div id="col1" class="col flex-first">
+            <div class="blc">
+            <div class="img-align"><img src="img/icon1.png" class="img-fluid" /></div>
+            <strong class="blc_tit">Título</strong>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+            Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
+            </div>
+
+            <div class="blc">
+            <div class="img-align"><img src="img/icon2.png" class="img-fluid" /></div>
+            <strong class="blc_tit">Título</strong>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+            Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
+            </div>
+          </div><!-- coluna da esquerda-->
+
+          <div class="col flex-last">
+            <div class="blc">
+            <div class="img-align"><img src="img/icon3.png" class="img-fluid" /></div>
+            <strong class="blc_tit">Título</strong>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+            Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
+            </div>
+
+            <div class="blc">
+            <div class="img-align"><img src="img/icon2.png" class="img-fluid" /></div>
+            <strong class="blc_tit">Título</strong>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+            Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
+            </div>
+          </div><!-- coluna da direita-->
+
+          <div id="col_centro" class="col">
+            <div class="blc">
+            <span class="sub_tit">Buffet RJ</span>
+            <strong class="center_tit">Nossos serviços</strong>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!</p>
+            </div>
+          </div><!-- coluna do centro-->
+
+        </div>
+      </article>
+    </section>
+
+    <section class="fotos">
+      <article class="container">
+        <span class="sub_tit">Algumas</span>
+        <strong class="center_tit">Fotos</strong>
+        <ul class="row">
+          <li class="foto col-sm-4"><img src="img/foto1.jpg" class="img-fluid"/></li>
+          <li class="foto col-sm-4"><img src="img/foto2.jpg" class="img-fluid"/></li>
+          <li class="foto col-sm-4"><img src="img/foto3.jpg" class="img-fluid"/></li>
+          <li class="foto col-sm-4"><img src="img/foto1.jpg" class="img-fluid"/></li>
+          <li class="foto col-sm-4"><img src="img/foto2.jpg" class="img-fluid"/></li>
+          <li class="foto col-sm-4"><img src="img/foto3.jpg" class="img-fluid"/></li>
+        </ul>
+      </article>
+    </section>
+
+    <footer class="rdp">
+      <div class="container">
+        <strong class="center_tit">Contato</strong>
+
+        <div class="cols_rdp">
+          <div id="col_fone" class="col-sm-3 col_rdp">
+            <span class="txt_rdp">(22) 2222-2222</span>
+            <span class="txt_rdp">(22) 2222-2222</span>
+          </div>
+          <div id="col_email" class="col-sm-3 col_rdp"><span class="txt_rdp">contato@donqbuffet.com.br</span></div>
+          <div id="col_fb" class="col-sm-3 col_rdp"><span class="txt_rdp"><a href="" title="Curta a fanpage no Facebook">/donqbuffet</a></span></div>
+          <div id="col_insta" class="col-sm-3 col_rdp"><span class="txt_rdp"><a href="" title="Siga-nos no Instagram">@donqbuffet</a></span></div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
