@@ -13,3 +13,9 @@ jQuery(document).ready( function(){
 jQuery(document).ready(function(){
      Formzin.iniciar();
 });
+function goToByScroll(id){
+    jQuery(document).ready(function($){
+        jQuery('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+       return false;
+    });
+};

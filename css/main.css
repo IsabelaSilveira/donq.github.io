@@ -136,6 +136,7 @@ body {
 .banner .row{ height: 100%;}
 #banner_txt{ align-self: flex-end; }
 #form_col{ background: rgba(255,255,255,.8); padding: 30px 30px 35px; height: calc(100% - 70px); border-radius: 0 0 30px 30px;}
+#form_col .d-flex{ height: 100%;}
 .v_align{ align-self: flex-end; }
 .form_tit{ font: 2.2em 'blackswordregular',cursive; color: black; text-align: center; margin: 0 0 25px;}
 .form_tit,
