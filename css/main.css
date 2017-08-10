@@ -288,7 +288,8 @@ body {
   }
   .header{ position: relative; background: #101010; }
   .logo img{ margin: 10px auto; display: block;  }
-  .navegacao{ padding: 0 15px; }
+  .navegacao{ padding: 0 15px; width: 100%}
+  .menu{ display: flex; justify-content: space-between; width: 100%; }
   .menu_link, .menu_link:visited{  padding: 20px 7px; display: block; }
   .menu_item:last-child .menu_link { padding-right: 0; }
 
@@ -297,6 +298,7 @@ body {
 
   .img-fluid{ margin: 0 auto; display: block;}
 
+  #servicos .col{ width: 100%;}
   .img-align{ display: table; margin: 0 auto;}
   .blc_tit{ text-align: center; display: block; width: 100%;}
   #col1 p,
